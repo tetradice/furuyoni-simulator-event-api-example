@@ -11,7 +11,7 @@
       "matches": [
         "http://localhost/*",
         "https://localhost/*",
-        "https://furuyoni-simulator.herokuapps.com/*"
+        "https://furuyoni-simulator.herokuapp.com/*"
       ],
       "js": ["dist/content.js"]
     }
