@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Sample TypeScript Extension",
+    "version": "1.0",
+    "permissions": ["tabs", "activeTab"],
+    "background": {
+      "service_worker": "dist/background.js"
+    },
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["dist/content.js"]
+        }
+      ]
+  }
