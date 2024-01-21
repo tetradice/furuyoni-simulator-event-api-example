@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  '@tetradice/furuyoni-simulator-event-api-types':
+    specifier: ^0.2.0
+    version: 0.2.0
   '@types/chrome':
     specifier: ^0.0.258
     version: 0.0.258
@@ -13,6 +16,10 @@ devDependencies:
     version: 5.3.3
 
 packages:
+
+  /@tetradice/furuyoni-simulator-event-api-types@0.2.0:
+    resolution: {integrity: sha512-F8+HRpLpYwjeqGqfdcXEBcX+Jp59/ftD0hy7RUK6UxX52x8PjJI8RWlnlRcdrL96Esu+cZLR9MoMvZoHP+8EeQ==}
+    dev: true
 
   /@types/chrome@0.0.258:
     resolution: {integrity: sha512-vicJi6cg2zaFuLmLY7laG6PHBknjKFusPYlaKQ9Zlycskofy71rStlGvW07MUuqUIVorZf8k5KH+zeTTGcH2dQ==}
