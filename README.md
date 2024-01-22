@@ -2,7 +2,7 @@
 
 [ふるよにボードシミュレーター　拡張イベント API](https://furuyoni-tools-doc.notion.site/API-71e52d2fd2be4767a2c2233afeb87fa4?pvs=4)に対応したChrome拡張機能のサンプルです。
 
-現時点では試験的な実装の段階です。以下3つのイベントのみに対応しています。
+現在は試験的実装の段階です。以下3つのイベントのみに対応しています。
 
 - sakuraba.megamiSelectFinished（選択メガミを公開した）
 - sakuraba.reshuffled（再構成を行った）
@@ -64,3 +64,8 @@
 ### 推奨エディタ
 
 Visual Studio Code
+
+
+### 推奨パッケージマネージャ
+
+pnpm
