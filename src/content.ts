@@ -1,4 +1,3 @@
-// d.tsファイルを読み込ませるために、以下のように書く必要がある。（importを使うとViteが処理できない）
 /// <reference types="@tetradice/furuyoni-simulator-event-api-types" />
 
 document.addEventListener("sakuraba.megamiSelectFinished", (e) => {

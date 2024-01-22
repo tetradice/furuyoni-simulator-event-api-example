@@ -5,7 +5,8 @@
   "description": "",
   "scripts": {
     "build": "vite build",
-    "watch": "tsc -w"
+    "watch": "vite build -w",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",

@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Sample TypeScript Extension",
   "version": "1.0",
-  "permissions": ["tabs", "activeTab"],
+  "permissions": ["activeTab"],
   "background": {
     "service_worker": "dist/background.js"
   },
