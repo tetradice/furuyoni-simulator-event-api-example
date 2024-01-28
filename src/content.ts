@@ -28,6 +28,10 @@ document.addEventListener("sakuraba.removingMegamiSelectFinished", (e) => {
   );
 });
 
+document.addEventListener("sakuraba.duelStarted", (e) => {
+  console.warn(`sakuraba.duelStarted イベントが呼び出されました。`, e.detail);
+});
+
 document.addEventListener("sakuraba.turnPlayerDecided", (e) => {
   console.warn(
     `sakuraba.turnPlayerDecided イベントが呼び出されました。`,
@@ -44,4 +48,8 @@ document.addEventListener("sakuraba.specialCardOpened", (e) => {
     `sakuraba.specialCardOpened イベントが呼び出されました。`,
     e.detail
   );
+});
+
+document.addEventListener("sakuraba.boardResetted", (e) => {
+  console.warn(`sakuraba.boardResetted イベントが呼び出されました。`, e.detail);
 });
