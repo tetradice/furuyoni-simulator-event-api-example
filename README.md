@@ -1,17 +1,8 @@
 # furuyoni-simulator-event-api-example
 
-[ふるよにボードシミュレーター　拡張イベント API](https://furuyoni-tools-doc.notion.site/API-71e52d2fd2be4767a2c2233afeb87fa4?pvs=4)に対応したChrome拡張機能のサンプルです。
+[ふるよにボードシミュレーター　拡張イベント API（バージョン0.1）](https://furuyoni-tools-doc.notion.site/API-71e52d2fd2be4767a2c2233afeb87fa4?pvs=4)に対応したChrome拡張機能のサンプルです。
 
-現在は試験的実装の段階です。以下3つのイベントのみに対応しています。
 
-- sakuraba.megamiSelectFinished（選択メガミを公開した）
-- sakuraba.reshuffled（再構成を行った）
-- sakuraba.specialCardOpened（切り札を表向きにした）
-
-また、以下の差異・制限があります。
-
-- API文書にある「必要な初期設定」を行っていなくても、常にイベントが発行されます。
-- sakuraba.specialCardOpenedのopenCountは常に1になります。
 
 ## 動かす方法
 
