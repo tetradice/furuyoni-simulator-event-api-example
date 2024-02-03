@@ -39,8 +39,66 @@ document.addEventListener("sakuraba.turnPlayerDecided", (e) => {
   );
 });
 
+document.addEventListener("sakuraba.vigorIncreased", (e) => {
+  console.warn(
+    `sakuraba.vigorIncreased イベントが呼び出されました。`,
+    e.detail
+  );
+});
+
+document.addEventListener("sakuraba.vigorDecreased", (e) => {
+  console.warn(
+    `sakuraba.vigorDecreased イベントが呼び出されました。`,
+    e.detail
+  );
+});
+
+document.addEventListener("sakuraba.flinchStateAdded", (e) => {
+  console.warn(
+    `sakuraba.flinchStateAdded イベントが呼び出されました。`,
+    e.detail
+  );
+});
+
+document.addEventListener("sakuraba.flinchStateRemoved", (e) => {
+  console.warn(
+    `sakuraba.flinchStateRemoved イベントが呼び出されました。`,
+    e.detail
+  );
+});
+document.addEventListener("sakuraba.libraryCardDrawn", (e) => {
+  console.warn(
+    `sakuraba.libraryCardDrawn イベントが呼び出されました。`,
+    e.detail
+  );
+});
+document.addEventListener(
+  "sakuraba.sakuraTokensOnEnhanceCardDecreased",
+  (e) => {
+    console.warn(
+      `sakuraba.sakuraTokensOnEnhanceCardDecreased イベントが呼び出されました。`,
+      e.detail
+    );
+  }
+);
+
 document.addEventListener("sakuraba.reshuffled", (e) => {
   console.warn(`sakuraba.reshuffled イベントが呼び出されました。`, e.detail);
+});
+
+document.addEventListener("sakuraba.discarded", (e) => {
+  console.warn(`sakuraba.discarded イベントが呼び出されました。`, e.detail);
+});
+
+document.addEventListener("sakuraba.basicActionInvoked", (e) => {
+  console.warn(
+    `sakuraba.basicActionInvoked イベントが呼び出されました。`,
+    e.detail
+  );
+});
+
+document.addEventListener("sakuraba.cardUsed", (e) => {
+  console.warn(`sakuraba.cardUsed イベントが呼び出されました。`, e.detail);
 });
 
 document.addEventListener("sakuraba.specialCardOpened", (e) => {
@@ -48,6 +106,14 @@ document.addEventListener("sakuraba.specialCardOpened", (e) => {
     `sakuraba.specialCardOpened イベントが呼び出されました。`,
     e.detail
   );
+});
+
+document.addEventListener("sakuraba.cardSealed", (e) => {
+  console.warn(`sakuraba.cardSealed イベントが呼び出されました。`, e.detail);
+});
+
+document.addEventListener("sakuraba.damaged", (e) => {
+  console.warn(`sakuraba.damaged イベントが呼び出されました。`, e.detail);
 });
 
 document.addEventListener("sakuraba.boardResetted", (e) => {

@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@tetradice/furuyoni-simulator-event-api-types':
-    specifier: ^0.5.0
-    version: 0.5.0
+    specifier: ^0.11.0
+    version: 0.11.0
   '@types/chrome':
     specifier: ^0.0.258
     version: 0.0.258
@@ -331,8 +331,8 @@ packages:
     dev: true
     optional: true
 
-  /@tetradice/furuyoni-simulator-event-api-types@0.5.0:
-    resolution: {integrity: sha512-+Pj8cwvpSMh0zc7RKgdaY4rfQjfo7o5AAieemY4m2irdqERrhTA7qE4CyAqrEGKA8I72zW5YxfPKhQWr4q+pQQ==}
+  /@tetradice/furuyoni-simulator-event-api-types@0.11.0:
+    resolution: {integrity: sha512-qTUi7m151GR1BBFVBGVwzlGf4ch+zEHA6XMslauSVxIzDHk0MaRGNPiP5fs7hd806f3wv8D41yS31y5qaeDpyQ==}
     dev: true
 
   /@types/chrome@0.0.258:
