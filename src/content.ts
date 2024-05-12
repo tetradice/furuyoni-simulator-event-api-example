@@ -119,3 +119,25 @@ document.addEventListener("sakuraba.damaged", (e) => {
 document.addEventListener("sakuraba.boardResetted", (e) => {
   console.warn(`sakuraba.boardResetted イベントが呼び出されました。`, e.detail);
 });
+
+document.addEventListener("sakuraba.boardResetted", (e) => {
+  console.warn(`sakuraba.boardResetted イベントが呼び出されました。`, e.detail);
+});
+document.addEventListener("sakuraba.planSet", (e) => {
+  console.warn(`sakuraba.planSet イベントが呼び出されました。`, e.detail);
+});
+document.addEventListener("sakuraba.planOpened", (e) => {
+  console.warn(`sakuraba.planOpened イベントが呼び出されました。`, e.detail);
+});
+document.addEventListener("sakuraba.umbrellaOpened", (e) => {
+  console.warn(
+    `sakuraba.umbrellaOpened イベントが呼び出されました。`,
+    e.detail
+  );
+});
+document.addEventListener("sakuraba.umbrellaClosed", (e) => {
+  console.warn(
+    `sakuraba.umbrellaClosed イベントが呼び出されました。`,
+    e.detail
+  );
+});
