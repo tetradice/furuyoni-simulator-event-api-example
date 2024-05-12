@@ -1,6 +1,6 @@
 # furuyoni-simulator-event-api-example
 
-[ふるよにボードシミュレーター　拡張イベント API（バージョン0.1）](https://furuyoni-tools-doc.notion.site/API-71e52d2fd2be4767a2c2233afeb87fa4?pvs=4)に対応したChrome拡張機能のサンプルです。
+[ふるよにボードシミュレーター　拡張イベント API（バージョン0.2）](https://furuyoni-tools-doc.notion.site/API-0-2-11bce2f58716491f9de0dc9d78d18723?pvs=4)に対応したChrome拡張機能のサンプルです。
 
 
 
